@@ -83,7 +83,7 @@
 <script src="/resources/js/jquery-3.2.1.min.js"></script>
 <script>
 function displayComments() {
-	var url = '/comments/';
+	var url = '/comments';
 	$.getJSON(url, function(data) {
 		$('#all-comments').empty();
 		$.each(data, function(i, item) {
